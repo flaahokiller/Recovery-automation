@@ -60,6 +60,9 @@ jobs:
 
       - name: Cleanup Space
         uses: rokibhasansagar/slimhub_actions@main
+        
+      - name: Recovery Compiler For Github Actions
+        uses: CarbonatedBlack/Recovery-Compiler@V7.0
 
       - name: Initializing Build Environment
         run: bash prepare.sh
